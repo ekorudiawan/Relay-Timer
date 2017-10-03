@@ -1,0 +1,5 @@
+main DSTACK_USAGE:1 DSTACK_LEVEL:1 FILE:"Timer Relay.c" LINE:524
+menuSetting1 DSTACK_USAGE:14 DSTACK_LEVEL:15 FILE:"Timer Relay.c" LINE:310
+sscanf DSTACK_USAGE:9 DSTACK_LEVEL:24 FILE:"C:\cvavreval\lib\stdio.lib" LINE:1815
+_scanf DSTACK_USAGE:19 DSTACK_LEVEL:43 FILE:"C:\cvavreval\lib\stdio.lib" LINE:1560
+isspace DSTACK_USAGE:1 DSTACK_LEVEL:44 FILE:"C:\cvavreval\lib\ctype.lib" LINE:153

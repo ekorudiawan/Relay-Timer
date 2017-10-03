@@ -1,0 +1,33 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+jamTimerOn                                                        0x01F0       4
+menitTimerOn                                                      0x01F4       4
+jamTimerOff                                                       0x01F8       4
+menitTimerOff                                                     0x01FC       4
+dataKeypad                                                        0x0200      16
+bufferLcd1                                                        0x0210      16
+bufferLcd2                                                        0x0220      16
+_base_y                                                           0x0230       4
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+_jamTimerOn                                                       0x0000       4
+_menitTimerOn                                                     0x0004       4
+_jamTimerOff                                                      0x0008       4
+_menitTimerOff                                                    0x000C       4
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+jam                                                               R5           1
+menit                                                             R4           1
+detik                                                             R7           1
+x                                                                 R6           1
+tanggal                                                           R9           1
+bulan                                                             R8           1
+tahun                                                             R11          1
+_lcd_x                                                            R10          1
+_lcd_y                                                            R13          1
+_lcd_maxx                                                         R12          1
